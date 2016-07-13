@@ -1,2 +1,13 @@
 server:
-    port: 8081
+  port: 8081
+  context-path: /client
+
+security.oauth2:
+  client:
+    clientId: solar
+    clientSecret: solar
+    accessTokenUri: http://localhost:8080/oauth/token
+    userAuthorizationUri: http://localhost:8080/oauth/authorize
+    scope: read
+  resource:
+    user-info-uri: http://localhost:8080/me
