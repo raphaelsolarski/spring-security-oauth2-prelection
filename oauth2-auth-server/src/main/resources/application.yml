@@ -1,0 +1,4 @@
+security.oauth2.client:
+  client.client-id: solar
+  client-secret: solar
+  scope: read,write
