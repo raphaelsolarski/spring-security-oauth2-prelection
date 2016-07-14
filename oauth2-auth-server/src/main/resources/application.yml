@@ -1,4 +1,9 @@
 security.oauth2.client:
-  client.client-id: solar
+  client-id: solar
   client-secret: solar
   scope: read,write
+
+spring.datasource:
+  url: jdbc:postgresql://localhost/oauth2
+  username: postgres
+  password: postgres
